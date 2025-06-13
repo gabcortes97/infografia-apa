@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Citas APA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+        }
+        .section-card {
+            background-color: #ffffff;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s;
+        }
+        .section-card:hover {
+            transform: translateY(-5px);
+        }
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #2c5282; /* Darker blue for titles */
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        .section-title svg {
+            margin-right: 0.75rem;
+            color: #4299e1; /* Lighter blue for icons */
+        }
+        .example-block {
+            background-color: #f7fafc;
+            border-left: 4px solid #4299e1;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-top: 0.75rem;
+            font-family: 'Courier New', monospace; /* Monospace for examples */
+            word-break: break-word; /* Ensure long URLs/citations wrap */
+        }
+        .hanging-indent {
+            padding-left: 2em;
+            text-indent: -2em;
+        }
+        .text-blue-600 {
+            color: #3182ce;
+        }
+        .text-blue-800 {
+            color: #2b6cb0;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-6 lg:p-8">
+    <div class="container mx-auto">
+        <h1 class="text-4xl sm:text-5xl font-bold text-center mb-8 text-blue-800">
+            <span class="block">📚 Guía Rápida</span>
+            <span class="block mt-2">Formato APA (7ma Edición) 📝</span>
+        </h1>
+
+        <!-- Sección 1: ¿Por qué Citar? -->
+        <div class="section-card">
+            <h2 class="section-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                ¿Por qué Citar?
+            </h2>
+            <ul class="list-disc pl-5 text-gray-700 leading-relaxed">
+                <li><strong class="text-blue-600">Reconocer el trabajo:</strong> Dar crédito a los autores originales de las ideas.</li>
+                <li><strong class="text-blue-600">Evitar el plagio:</strong> Asegurar la originalidad de tu trabajo.</li>
+                <li><strong class="text-blue-600">Fortalecer tus argumentos:</strong> Demostrar que tu investigación está respaldada por fuentes confiables.</li>
+                <li><strong class="text-blue-600">Facilitar la verificación:</strong> Permitir a los lectores localizar las fuentes utilizadas.</li>
+            </ul>
+        </div>
+        
+                <!-- Sección 5: APA, Un Estilo Entre Muchos -->
+        <div class="section-card">
+            <h2 class="section-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-compass"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                APA: Un Estilo Entre Muchos
+            </h2>
+            <p class="mb-3 text-gray-700">El formato APA (American Psychological Association) es ampliamente utilizado, especialmente en las ciencias sociales y del comportamiento, pero es importante saber que existen otros estilos de citación:</p>
+            <ul class="list-disc pl-5 text-gray-700 leading-relaxed">
+                <li><strong class="text-blue-600">MLA (Modern Language Association):</strong> Común en humanidades, especialmente en lengua y literatura.</li>
+                <li><strong class="text-blue-600">Chicago/Turabian:</strong> Utilizado en historia, artes y algunas ciencias sociales, con opciones de notas al pie/final o sistema autor-fecha.</li>
+                <li><strong class="text-blue-600">Harvard:</strong> Un estilo de autor-fecha similar a APA, popular en economía y sociología.</li>
+                <li><strong class="text-blue-600">Vancouver:</strong> Predominante en las ciencias médicas y biomédicas.</li>
+            </ul>
+            <p class="mt-3 text-gray-700">La elección del estilo de citación a menudo depende del campo de estudio, la universidad o la revista a la que se envíe el trabajo. Siempre verifica cuál es el formato requerido en tu contexto.</p>
+        </div>
+
+        <!-- Sección 2: Citas en el Texto -->
+        <div class="section-card">
+            <h2 class="section-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-left"><line x1="17" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="17" y1="18" x2="3" y2="18"></line></svg>
+                Citas en el Texto
+            </h2>
+            <p class="mb-3 text-gray-700">Se utilizan para indicar de dónde proviene la información o la idea dentro del cuerpo de tu texto.</p>
+            <h3 class="font-semibold text-blue-600 mb-2">Formato Básico:</h3>
+            <p class="mb-3 text-gray-700">(Apellido del Autor, Año)</p>
+
+            <h3 class="font-semibold text-blue-600 mb-2">Tipos:</h3>
+            <ul class="list-disc pl-5 text-gray-700 leading-relaxed">
+                <li><strong class="text-blue-600">Paráfrasis o Resumen:</strong> Se refiere a ideas de otros autores, pero con tus propias palabras. El texto va sin comillas y entre paréntesis se incluye el apellido del autor y el año.
+                    <div class="example-block">
+                        El estudio demostró mejoras significativas (García, 2020).<br>
+                        Según García (2020), el estudio demostró mejoras significativas.
+                    </div>
+                </li>
+                <li><strong class="text-blue-600">Cita Directa Corta (menos de 40 palabras):</strong> Son citas textuales, es decir, en las palabras del autor. El texto va entre comillas y entre paréntesis se incluye apellido, año y número de página (p. o pp.).
+                    <div class="example-block">
+                        "La tecnología ha revolucionado la comunicación" (Pérez, 2019, p. 45).
+                    </div>
+                </li>
+                <li><strong class="text-blue-600">Cita Directa en Bloque (40 o más palabras):</strong> Se indenta 1.27 cm (0.5 pulgadas) desde el margen izquierdo. No se usan comillas. La cita parentética va después del punto final.
+                    <div class="example-block">
+                        Este enfoque se ha explorado profundamente:<br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;Las implicaciones de la inteligencia artificial en la sociedad moderna son vastas y aún no se comprenden en su totalidad. Es esencial investigar más a fondo cómo estas tecnologías afectarán el empleo, la privacidad y la ética en las próximas décadas, ya que su desarrollo avanza a un ritmo sin precedentes.
+                        (Martínez, 2021, pp. 112-113)
+                    </div>
+                </li>
+            </ul>
+
+            <h3 class="font-semibold text-blue-600 mt-4 mb-2">Citas con Múltiples Autores (en el Texto):</h3>
+            <ul class="list-disc pl-5 text-gray-700 leading-relaxed">
+                <li><strong class="text-blue-600">Dos Autores:</strong> Siempre se citan ambos apellidos unidos por '&' (dentro de paréntesis) o 'y' (fuera de paréntesis).
+                    <div class="example-block">
+                        El análisis conjunto reveló patrones (Sánchez & Gómez, 2018).<br>
+                        Según Sánchez y Gómez (2018), el análisis conjunto reveló patrones.
+                    </div>
+                </li>
+                <li><strong class="text-blue-600">Tres o más Autores:</strong> Se cita solo el apellido del primer autor seguido de "et al." (y otros) desde la primera citación.
+                    <div class="example-block">
+                        Estudios recientes sugieren (Fernández et al., 2022).<br>
+                        Fernández et al. (2022) argumentan que...
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Sección 3: Lista de Referencias -->
+        <div class="section-card">
+            <h2 class="section-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+                Lista de Referencias
+            </h2>
+            <p class="mb-3 text-gray-700">Se encuentra al final del documento y proporciona la información completa de cada fuente citada.</p>
+            <ul class="list-disc pl-5 text-gray-700 leading-relaxed">
+                <li><strong class="text-blue-600">Orden Alfabético:</strong> Organiza las referencias alfabéticamente por el apellido del primer autor.</li>
+                <li><strong class="text-blue-600">Sangría Francesa (Hanging Indent):</strong> La primera línea de cada referencia está al margen izquierdo, y las líneas subsiguientes tienen una sangría de 1.27 cm (0.5 pulgadas).</li>
+                <li><strong class="text-blue-600">Solo fuentes citadas:</strong> Solo incluye las fuentes que realmente citaste en tu texto.</li>
+            </ul>
+        </div>
+
+        <!-- Sección 4: Ejemplos Comunes -->
+        <div class="section-card">
+            <h2 class="section-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                Ejemplos Comunes
+            </h2>
+
+            <h3 class="font-semibold text-blue-600 mt-4 mb-2">Libro:</h3>
+            <div class="example-block hanging-indent">
+                Apellido, A. A. (Año). <em>Título del libro en cursiva</em>. Editorial.
+                <br>García, L. (2020). <em>Psicología del desarrollo: Una perspectiva integral</em>. Pirámide.
+            </div>
+
+            <h3 class="font-semibold text-blue-600 mt-4 mb-2">Artículo de Revista (con DOI):</h3>
+            <div class="example-block hanging-indent">
+                Apellido, A. A., Apellido, B. B., & Apellido, C. C. (Año). Título del artículo. <em>Nombre de la Revista, volumen</em>(número), páginas. DOI
+                <br>Martínez, R., & Sánchez, M. (2021). Impacto de la pandemia en la educación a distancia. <em>Revista de Educación Superior, 45</em>(2), 150-165. https://doi.org/10.XXXX/XXXXX
+            </div>
+
+            <h3 class="font-semibold text-blue-600 mt-4 mb-2">Página Web:</h3>
+            <div class="example-block hanging-indent">
+                Apellido, A. A. (Año, Día de Mes). <em>Título de la página en cursiva</em>. Nombre del Sitio Web. URL
+                <br>Ministerio de Salud. (2023, 10 de marzo). <em>Nuevas directrices para la salud pública</em>. Gobierno de Chile. https://www.minsal.cl/nuevas-directrices
+                <br><br><em>(Si no hay autor individual, se usa el nombre de la organización o sitio web como autor.)</em>
+            </div>
+
+            <h3 class="font-semibold text-blue-600 mt-4 mb-2">Referencia con Múltiples Autores (en la Lista de Referencias):</h3>
+            <ul class="list-disc pl-5 text-gray-700 leading-relaxed">
+                <li><strong class="text-blue-600">Dos Autores:</strong> Apellido, A. A., & Apellido, B. B. (Año). <em>Título del libro/artículo</em>...
+                    <div class="example-block hanging-indent">
+                        Sánchez, P., & Gómez, C. (2018). <em>Innovaciones en neurociencia cognitiva</em>. Ediciones Científicas.
+                    </div>
+                </li>
+                <li><strong class="text-blue-600">Tres a Veinte Autores:</strong> Se listan todos los apellidos e iniciales, separados por comas, con '&' antes del último autor.
+                    <div class="example-block hanging-indent">
+                        Fernández, J. L., Ruiz, A. M., Vargas, E. P., & Herrera, G. T. (2022). <em>Metodologías de investigación social en la era digital</em>. Senda Académica.
+                    </div>
+                </li>
+                <li><strong class="text-blue-600">Veintiún o más Autores:</strong> Se listan los primeros 19 autores, se colocan puntos suspensivos, y luego se añade el nombre del último autor.
+                    <div class="example-block hanging-indent">
+                        Adams, J., Baker, K., Charles, L., Davis, M., Evans, N., Ford, O., Green, P., Hall, Q., Ivy, R., Jones, S., King, T., Lee, U., Miller, V., Nelson, W., Owens, X., Peters, Y., Quinn, Z., Roberts, A., Smith, B., ... Wilson, D. (2023). <em>Avances en la genómica computacional</em>. BioTech Press.
+                    </div>
+                </li>
+            </ul>
+
+        <!-- Sección de Créditos/Recordatorio -->
+        <div class="section-card text-center text-gray-600 text-sm italic">
+            <p>Recuerda que esta es una guía básica. Siempre consulta el <a href="https://normas-apa.org/" class="text-blue-600 underline" target="_blank">manual oficial de la APA (7ma Edición)</a> para casos específicos o dudas complejas.</p>
+        </div>
+
+    </div>
+</body>
+</html>
